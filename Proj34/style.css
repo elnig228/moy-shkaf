@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(pexels-pixabay-210265.jpg);
+    background-size: cover;
+    background-position: -5px -190px;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    color: white;
+    display: flex;
+    margin: 10px 1000px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hp h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 110px 480px;
+    width: 548px;
+    font-size:50px;
+}
+
+.hp p{
+    color: white;
+    margin: -90px 580px;
+    width: 370px;
+}
+
+.btn1{
+    border-color: aqua;
+    color: white;
+    font-family: cursive;
+    background-color: transparent;
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+    margin: 120px 500px;
+}
+
+.btn1 a{
+    color: white;
+}
+
+.btn2{
+    border-color: aqua;
+    color: white;
+    font-family: cursive;
+    background-color: transparent;
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+    margin: 0px -470px;
+}
+
+.btn1:hover{
+    background-color:aqua;
+    transition: all 2s ease;
+    transform: rotate(360deg);
+}
